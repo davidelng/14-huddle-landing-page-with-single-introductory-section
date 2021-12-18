@@ -18,15 +18,40 @@ img {
 body {
   min-height: 100vh;
   font: 100% "Open Sans", sans-serif;
+  color: white;
+  background: url(images/bg-mobile.svg), #674baf;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.attribution {
+footer, main, header {
+  margin: 2rem;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+main button {
+  border-radius: 1.25rem;
+  border: none;
+  background-color: #e882e8;
+}
+
+footer .attribution {
   font-size: 11px;
   text-align: center;
 }
-
-.attribution a {
+footer .attribution a {
   color: #3e52a3;
+}
+
+@media (min-width: 62.5rem) {
+  body {
+    background: url(images/bg-desktop.svg), #674baf;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

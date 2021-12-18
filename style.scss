@@ -23,13 +23,51 @@ img {
 body {
     min-height: 100vh;
     font: 100% $font-body;
+    color: white;
+    background: url(images/bg-mobile.svg), $violet;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-  }
+%mobile-margin {
+    margin: 2rem;
+}
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+header {
+    @extend %mobile-margin;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+main {
+    @extend %mobile-margin;
+
+    button {
+        border-radius: 1.25rem;
+        border: none;
+        background-color: $soft-magenta;
+    }
+}
+
+footer {
+    @extend %mobile-margin;
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+@media (min-width: 62.5rem) {
+    body {
+        background: url(images/bg-desktop.svg), $violet;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
