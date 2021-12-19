@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-[Solution URL]()  
-[Live site URL]()
+[Solution URL](https://github.com/davidelng/14-huddle-landing-page-with-single-introductory-section)  
+[Live site URL](https://davidelng.github.io/14-huddle-landing-page-with-single-introductory-section/)
 
 ## My process
 
@@ -50,7 +50,7 @@ How to use Sass and Scss
 
 ### Useful resources
 
-[Sass](https://sass-lang.com/) Sass pre-processor it's worth studying
+[Sass](https://sass-lang.com/) pre-processor it's worth studying
 
 ## Author
 
